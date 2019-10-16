@@ -31,6 +31,7 @@ it wil appear " Your opponent won"
 ## Planning and Development Process
 
 Day1: Planning How can implement the game
+
 Day2-Day3: implementing the idea  
 Day4: Designing
 
