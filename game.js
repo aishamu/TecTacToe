@@ -8,7 +8,6 @@ cell[i] = 0;
 }
 
 
-
 function Place(value) {
   if (cell[value] == 0) {
     items[value].innerHTML="X";
@@ -29,8 +28,6 @@ function Place(value) {
       result.innerText ="it's a tie"
       Container.appendChild(result)
       GameOver();
-
-
     }
     else{
       ComputerTurn();
@@ -95,7 +92,7 @@ function CheckNobody() {
   }
 }
 
-  return no; 
+  return no;
 }
 
 function GameOver() {
