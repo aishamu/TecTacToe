@@ -24,7 +24,9 @@ Game Page
 
 ### User Stories
  as Player,I would like instruction alert to explain how the game works
+
  as Player,I would like Start Button to start the Game
+ 
  as Player,I would like text to appear to tell me i have won
 
 
