@@ -15,14 +15,8 @@ function Place(value) {
     if (Check() == true) {
 
       let result = document.createElement("h1")
-      //  Container.removeChild(Container.firstChild);
-      Swal.fire("You won")
-
-      // result.innerText ="Congrats!!! You won"
-      // Container.appendChild(result)
+       Swal.fire("You won")
       setTimeout(function(){GameOver();},1000);
-
-
     }
     else if(!CheckNobody()){
 
@@ -50,11 +44,9 @@ function ComputerTurn() {
    cell[PutHere] = 2;
 
   if (Check() == true) {
-    // let result = document.createElement("h1")
-    // Container.removeChild(Container.firstChild);
+ 
     Swal.fire("Your opponent won")
-  //  Container.appendChild(result)
-  setTimeout(function(){GameOver();},1000);
+   setTimeout(function(){GameOver();},1000);
 
    } else if(!CheckNobody()){
     let result = document.createElement("h1")
