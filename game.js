@@ -14,17 +14,14 @@ function Place(value) {
     cell[value] = 1;
     if (Check() == true) {
 
-      let result = document.createElement("h1")
-       Swal.fire("You won")
+        Swal.fire("You won")
       setTimeout(function(){GameOver();},1000);
     }
     else if(!CheckNobody()){
 
-      let result = document.createElement("h1")
-      Container.removeChild(Container.firstChild);
-      result.innerText ="it's a tie"
-      Container.appendChild(result)
-      GameOver();
+ 
+      Swal.fire("it's a tie")
+       GameOver();
     }
     else{
       ComputerTurn();
@@ -49,10 +46,8 @@ function ComputerTurn() {
    setTimeout(function(){GameOver();},1000);
 
    } else if(!CheckNobody()){
-    let result = document.createElement("h1")
-  
-    result.innerText ="it's a tie"
-    Container.appendChild(result)
+   
+    Swal.fire("it's a tie")
     GameOver();
 
   }
