@@ -23,8 +23,7 @@ Game Page
 
 ### User Stories
 
-A story of the project user, that explains the use of the project.
-User as Player, He/She wants to play Tec Tac Toe Game with computer if He/She won it will appear " You won" if not
+ as Player, He/She wants to play Tec Tac Toe Game with computer if He/She won it will appear " You won" if not
 it wil appear " Your opponent won"
 
 ---
