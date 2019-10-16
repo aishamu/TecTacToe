@@ -15,9 +15,11 @@ function Place(value) {
     if (Check() == true) {
 
       let result = document.createElement("h1")
-       Container.removeChild(Container.firstChild);
-      result.innerText ="Congrats!!! You won"
-      Container.appendChild(result)
+      //  Container.removeChild(Container.firstChild);
+      Swal.fire("You won")
+
+      // result.innerText ="Congrats!!! You won"
+      // Container.appendChild(result)
       setTimeout(function(){GameOver();},1000);
 
 
@@ -25,6 +27,7 @@ function Place(value) {
     else if(!CheckNobody()){
 
       let result = document.createElement("h1")
+      Container.removeChild(Container.firstChild);
       result.innerText ="it's a tie"
       Container.appendChild(result)
       GameOver();
@@ -47,15 +50,15 @@ function ComputerTurn() {
    cell[PutHere] = 2;
 
   if (Check() == true) {
-    let result = document.createElement("h1")
-    Container.removeChild(Container.firstChild);
-
-    result.innerText ="Your opponent won"
-  Container.appendChild(result)
+    // let result = document.createElement("h1")
+    // Container.removeChild(Container.firstChild);
+    Swal.fire("Your opponent won")
+  //  Container.appendChild(result)
   setTimeout(function(){GameOver();},1000);
 
    } else if(!CheckNobody()){
     let result = document.createElement("h1")
+  
     result.innerText ="it's a tie"
     Container.appendChild(result)
     GameOver();
