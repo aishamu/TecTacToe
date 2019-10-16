@@ -15,9 +15,11 @@ JavaScript
 
 
 ### Wireframes
+Start page
 ![image](assets/img1.PNG)
 
-Your step by step planning sketch of your project, that you can post them as an image in here.
+Game Page
+![image](assets/img2.PNG)
 
 ### User Stories
 
