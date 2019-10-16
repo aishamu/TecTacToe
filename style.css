@@ -1,0 +1,334 @@
+
+
+
+.game {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+    header{
+          background-color:#4d004d;
+  
+    }
+  
+  .game .btn {
+    position: absolute;
+    top: 50%;
+    left: 150%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 16px;
+    padding: 15px 50px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .game .btn:hover {
+    background-color: black;
+    color: white;
+  }
+   
+  p{
+  margin:15px;
+  font-size:26px;
+   text-align:center;
+   font-family: 'Bungee Outline', cursive;
+  
+  }
+  .item {
+     width: 80px;
+     min-height: 85px;
+     float:left;
+     text-align: center;
+     color: white;
+     background: #dcefff;
+     border: 2px outset #575f68a8;
+     display:block;
+     font-size:55px;
+     font-family: 'Indie Flower', cursive;
+  }
+  .box {
+  padding:100px;
+     width: 260px;
+     margin-left: -10px;
+       border-style: inset;
+     margin-bottom: -120px;
+     padding:10px;
+  
+  
+  }
+  
+  
+     .aside {
+       width: 330px;
+       width: 33rem;
+       float: right;
+     }
+  
+    
+     body {
+      background: linear-gradient(253deg, #666699, #ff9999, #ffcc00);
+      background-size: 300% 300%;
+      -webkit-animation: Background 25s ease infinite;
+      -moz-animation: Background 25s ease infinite;
+      animation: Background 25s ease infinite;
+    }
+    
+    @-webkit-keyframes Background {
+      0% {
+        background-position: 0% 50%
+      }
+      50% {
+        background-position: 100% 50%
+      }
+      100% {
+        background-position: 0% 50%
+      }
+    }
+    
+    @-moz-keyframes Background {
+      0% {
+        background-position: 0% 50%
+      }
+      50% {
+        background-position: 100% 50%
+      }
+      100% {
+        background-position: 0% 50%
+      }
+    }
+    
+    @keyframes Background {
+      0% {
+        background-position: 0% 50%
+      }
+      50% {
+        background-position: 100% 50%
+      }
+      100% {
+        background-position: 0% 50%
+      }
+    }
+      #Container{
+  
+        background-color: black;
+        margin-right:150px;
+        margin-left:10px;
+        border-radius: 8px;
+        text-align: center;
+      }
+    .full-screen {
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: url(https://i.imgur.com/wCG2csZ.png);
+      background-size: cover;
+      background-position: center;
+      width: 100%;
+      height: 100%;
+      display: -webkit-flex;
+      display: flex;    
+      flex-direction: column;
+      -webkit-align-items: center;
+      align-items: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .game{
+  margin-top: 290px;
+    }
+    h1 {
+      color: black;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 800;
+      font-size: 3em;
+      margin: 150px 30px 0px 20px;
+      letter-spacing: -2px;
+      text-align: center;
+      text-shadow: 1px 2px 1px rgba(0, 0, 0, .6);
+    }
+    
+    h1:after {
+      display: block;
+      color: #fff;
+      letter-spacing: 1px;
+      font-family: 'Poiret One', sans-serif;
+      
+      font-size: .4em;
+      text-align: center;
+    }
+    
+    .button-line {
+      font-family: 'Open Sans', sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      background: transparent;
+      border: 1px solid #fff;
+      color: #fff;
+      text-align: center;
+      font-size: 1.4em;
+      opacity: .8;
+      padding: 20px 40px;
+      text-decoration: none;
+      transition: all .5s ease;
+      margin: 0 auto;
+      display: block;
+      width: 100px;
+    }
+    
+    .button-line:hover {
+      opacity: 1;
+    }
+      .main {
+        background-color: white;
+      }
+    
+      .header h1 {
+        color: 	white;
+        font-size:40px
+      }
+  
+      p {
+        font-size: 18px;
+        font-size: 1.8rem;
+      }
+      
+      html {
+        font-size: 62.5%;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+      }
+   
+      .header h1 {
+        margin: 20px auto;
+      }
+      .main {
+        width: 100%;
+        min-height: 350px;
+        min-height: 35rem;
+        padding-top: 80px;
+      }
+      
+     .container {
+        position: relative;
+        width: 960px;
+        width: 96rem;
+        margin: 0 auto;
+        padding: 0;
+      }
+          #Container{
+         opacity: 0.8;
+  
+        background-color: white;
+        margin-right:100px;
+        margin-top:10px;
+   
+        border-radius: 2px;
+   
+        text-align: center;
+      }
+      .content {
+        width: 630px;
+        width: 63rem;
+        float: left;
+      }
+      .aside {
+        width: 330px;
+        width: 33rem;
+        float: right;
+        margin-right:120px;
+        margin-top:-20px;
+      }
+       
+    
+      .header h1 {
+        margin: 20px auto;
+      }
+      
+   
+  @media (max-width: 450px) {
+    svg {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-top: -250px;
+      margin-left: -190px;
+    }
+   
+  }
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  #myBtn{
+    margin: 200px -730px 10px 20px;
+    width: 20%;
+    height: 10%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 10;
+    background-color: white;
+    transition: 0.3s;
+  }
+  #myBtn2{
+     margin: 300px -730px 10px 20px;
+    width: 20%;
+    height: 10%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 10;
+    background-color: white;
+    transition: 0.3s;
+   }
+  .myBtn:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  .myBtn2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  
