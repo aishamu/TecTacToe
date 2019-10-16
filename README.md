@@ -1,6 +1,7 @@
 # Project Title
 
 Tec Tac Toe Game
+
 ## Description
 
 The game is to be played between two people (in this program between You and COMPUTER).
@@ -22,11 +23,10 @@ Game Page
 ![image](assets/img2.PNG)
 
 ### User Stories
+ as Player,I would like instruction alert to explain how the game works
+ as Player,I would like Start Button to start the Game
+ as Player,I would like text to appear to tell me i have won
 
- as Player, He/She wants to play Tec Tac Toe Game with computer if He/She won it will appear " You won" if not
-it wil appear " Your opponent won"
-
----
 
 ## Planning and Development Process
 
