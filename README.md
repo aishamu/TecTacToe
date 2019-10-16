@@ -23,11 +23,11 @@ Game Page
 ![image](assets/img2.PNG)
 
 ### User Stories
- as Player,I would like instruction alert to explain how the game works
+as Player,I would like a landing page with Start Button to start the Game
 
- as Player,I would like Start Button to start the Game
- 
- as Player,I would like text to appear to tell me i have won
+ as Player,I would like an instruction alert to explain how the game works
+
+ as Player,I would like a text to appear to tell me if i have won
 
 
 ## Planning and Development Process
