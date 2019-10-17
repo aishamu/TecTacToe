@@ -10,7 +10,7 @@ cell[i] = 0;
 
 function Place(value) {
   if (cell[value] == 0) {
-    items[value].innerHTML="X";
+    items[value].innerHTML='<m style=" color: #8ac7db "> X</m>';
     cell[value] = 1;
     if (Check() == true) {
 
@@ -24,7 +24,7 @@ function Place(value) {
        GameOver();
     }
     else{
-      ComputerTurn();
+      setTimeout(function(){ ComputerTurn();},1010);
      }
   }
 }
